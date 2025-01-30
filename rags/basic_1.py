@@ -8,7 +8,7 @@ from langchain.text_splitter import CharacterTextSplitter
 
 current_dir = os.path.dirname(__file__)
 file_path = os.path.join(current_dir, "documents", "lord_of_the_rings.txt")
-persistent_directory = os.path.join(current_dir, "db", "chorma_db")
+persistent_directory = os.path.join(current_dir, "db", "chroma_db")
 # check chroma vector store
 
 if not os.path.exists(persistent_directory):
